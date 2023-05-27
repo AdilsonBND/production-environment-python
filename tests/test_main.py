@@ -2,7 +2,7 @@ from main import HelloWord
 
 
 def test_greeting():
-    excepted = "hello Adilson!"
+    excepted = "hello Adon!"
     actual = HelloWord(name="Adilson").greetin()
     assert actual == excepted
 
