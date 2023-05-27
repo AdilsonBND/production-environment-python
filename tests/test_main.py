@@ -1,4 +1,4 @@
-from main import HelloWord
+from src.main import HelloWord
 
 
 def test_greeting():
@@ -9,6 +9,5 @@ def test_greeting():
 
 def test_goodbye():
     excepted = "GoodBye"
-
     actual = HelloWord(name="Adilson").Goodbye()
     assert actual == excepted
