@@ -1,6 +1,6 @@
 .PHONY: clean
 clean:
-	rd /s .\.venv\ .\.pytest_cache\ .\__pycache__\
+	rd /s .\.venv\ .\.pytest_cache\ .\src\__pycache__\
 
 .PHONY: install
 install:

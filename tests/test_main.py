@@ -1,13 +1,13 @@
-from src.main import HelloWord
+from src.main import HelloWorld
 
 
 def test_greeting():
-    excepted = "hello Adilson!"
-    actual = HelloWord(name="Adilson").greetin()
-    assert actual == excepted
+    expected = "Hello Adilson!"
+    actual = HelloWorld(name="Adilson").greeting()
+    assert actual == expected
 
 
 def test_goodbye():
-    excepted = "GoodBye"
-    actual = HelloWord(name="Adilson").Goodbye()
-    assert actual == excepted
+    expected = "Goodbye!"
+    actual = HelloWorld(name="adilson").Goodbye()
+    assert actual == expected
