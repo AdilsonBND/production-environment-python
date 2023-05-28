@@ -11,7 +11,7 @@ a) Get-ExecutionPolicy<br>
 b) Set-ExecutionPolicy AllSigned<br>
 c) Set-ExecutionPolicy Bypass -Scope Process<br>
 d) Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))<br>
-
+<br>
 2) - instale a ferramente Make:<br>
 <br>
 * no powershell com poderes de administrador execute o comando:<br>
