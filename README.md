@@ -5,7 +5,7 @@ Como utilizar:<br>
 <br>
 1 - instale gerenciador chocolatey:<br>
 <br>
-* no powershell com poderes de administrador execute os comandos:<br>
+<b>no powershell com poderes de administrador execute os comandos:</b><br>
 <br>
 <pre>
 a) Get-ExecutionPolicy<br>
