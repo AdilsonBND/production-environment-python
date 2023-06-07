@@ -16,7 +16,7 @@ d) Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointMan
 <br>
 2) - instale a ferramenta Make:<br>
 <br>
-* no powershell com poderes de administrador execute o comando:<br>
+<b> no powershell com poderes de administrador execute o comando: </b><br>
 <br>
 <pre>
 a) choco install make<br>
